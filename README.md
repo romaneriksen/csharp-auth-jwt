@@ -19,6 +19,7 @@ Here's the diagram again to help you visualise this flow:
 
 ### Core Criteria
 You will need to:
+
 -install relevant dependencies when required e.g. BCrypt or simlar for encrypting passwords in your database
 -add relevent configuration to the appsettings.json e.g. ElephantSql instance / token
 -add an endpoint which handles the Registration / Login 
@@ -28,6 +29,7 @@ You will need to:
 
 ### Extension Criteria
 You should complete all of the above plus:
+
 -add an endpoint which returns data from your database and ensure the endpoint method is decorated with 
 the Authorize to secure it
 -if you wish to explore roles e.g. [Authorize(Role="Administrator")] then feel free
