@@ -20,17 +20,17 @@ Here's the diagram again to help you visualise this flow:
 ### Core Criteria
 You will need to:
 
--install relevant dependencies when required e.g. BCrypt or simlar for encrypting passwords in your database  
--add relevent configuration to the appsettings.json e.g. ElephantSql instance / token  
--add an endpoint which handles the Registration / Login  
--add entities, request/response models, db context, repository and any other classes you wish   
--keep code clean and comment where applicable using xml comments  
+- Install relevant dependencies when required e.g. BCrypt or simlar for encrypting passwords in your database  
+- Add relevent configuration to the appsettings.json e.g. ElephantSql instance / token  
+- Add an endpoint which handles the Registration / Login  
+- Add entities, request/response models, db context, repository and any other classes you wish   
+- Keep code clean and comment where applicable using xml comments  
 
 ### Extension Criteria
 You should complete all of the above plus:  
   
--add an endpoint which returns data from your database and ensure the endpoint method is decorated with the Authorize to secure it  
--if you wish to explore roles e.g. [Authorize(Role="Administrator")] then feel free  
+- Add an endpoint which returns data from your database and ensure the endpoint method is decorated with the `[Authorize]` to secure it  
+- If you wish to explore roles e.g. `[Authorize(Role="Administrator")]` then feel free  
 
 
 
