@@ -1,4 +1,6 @@
 # C# Authentication HTTP Requests
+## Link to cinma repo wiht security
+- https://github.com/romaneriksen/csharp-api-cinema-challenge
 
 ## Create a complete webapi using Jwt Authentication
 
